@@ -31,6 +31,8 @@ const atTheOldToad = {
       return `Зелья ${potionName} нет в инвентаре!`;
     }
 
+    // https://github.com/OksanaChorna/js-test-work.git
+
     this.potions.splice(potionIndex, 1);
   },
   updatePotionName(oldName, newName) {
